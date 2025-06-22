@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://placehold.co/32x32/ffcccc/000000?text=💖" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FFCDD2" /> <!-- Light Pink -->
+    <meta
+        name="description"
+        content="Tale Forge: Crafting delightful interactive stories together!"
+    />
+    <link rel="apple-touch-icon" href="https://placehold.co/180x180/ffcccc/000000?text=💖" />
+    <title>Tale Forge: Stories</title>
+
+    <!-- Google Fonts: Gochi Hand for a cute, handwritten feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-pink': '#FFCDD2', // Light Pink
+                        'secondary-blue': '#BBDEFB', // Light Blue
+                        'accent-yellow': '#FFF9C4',  // Light Yellow
+                        'dark-text': '#424242',     // Dark Gray for text
+                        'light-bg': '#FCE4EC',      // Lighter Pink for background
+                    },
+                    fontFamily: {
+                        'gochi-hand': ['"Gochi Hand"', 'cursive'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light-bg font-gochi-hand text-dark-text min-h-screen flex flex-col items-center p-4 sm:p-6 lg:p-8">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="w-full max-w-4xl bg-white rounded-3xl shadow-xl p-6 sm:p-8 lg:p-10 flex flex-col items-center">
+        <!-- React app will be mounted here -->
+    </div>
+</body>
+</html> 
